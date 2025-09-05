@@ -245,6 +245,7 @@ const VisitAttributesForm: React.FC<VisitAttributesFormProps> = ({
         orientation="vertical"
         legendText={t("llmConsent", "LLM Consent")}
         name="llm-consent"
+        required={true}
       >
         <RadioButton labelText="Yes" value="yes" id="yes-radio" />
         <RadioButton labelText="No" value="no" id="no-radio" />
